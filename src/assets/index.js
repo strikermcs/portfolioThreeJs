@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import csharp from './tech/c-sharp.png'
+import vue from './tech/vue.js.png'
+import posgres from './tech/postgresql.png'
+import firebase from './tech/firebase.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +33,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import githubLink from './links/github.png'
+import telegram from './links/telegram.png'
+import linkedIn from './links/linkedin.png'
+
+import Shevcuk from './testimonials/NadiaShev.png'
+import Incognito from './testimonials/incognito.png'
 
 export {
   logo,
@@ -59,4 +70,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  githubLink,
+  telegram,
+  linkedIn,
+  csharp,
+  posgres,
+  vue,
+  firebase,
+  Shevcuk,
+  Incognito
 };

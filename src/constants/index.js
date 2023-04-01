@@ -23,8 +23,17 @@ import {
     jobit,
     tripguide,
     threejs,
+    githubLink,
+    telegram,
+    linkedIn,
+    csharp,
+    posgres,
+    firebase,
+    vue,
+    Shevcuk,
+    Incognito
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -46,7 +55,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "WordPress Developer",
       icon: mobile,
     },
     {
@@ -81,24 +90,24 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Vue JS",
+      icon: vue,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "C Sharp",
+      icon: csharp,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Firebase",
+      icon: firebase,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Posgess SQL",
+      icon: posgres,
     },
     {
       name: "git",
@@ -172,27 +181,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      'Благодарна Павлу за выполненные задачи. Задания нужно было выполнить срочно, а Павел оперативно всё выполнил и проконсультировал. Также, я просила внести некоторые корректировки, всё было сделано на отлично. Спасибо за сотрудничество 🙂',
+      name: "Надежда Шевчук",
+      designation: "",
+      company: "",
+      image: Shevcuk,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Швидко виконана робота! Фрілансер відповідав на всі заданні питання (також швидко)! Якісно виконана робота. Враження від роботи прекрасні!)",
+      name: "Валентин Федьо",
+      designation: "",
+      company: "",
+      image: Incognito,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Павел помог в кротчайшие сроки провести исследовательскую работу по возможной адаптации сайта к варианту с поддержкой масштабируемости.",
+      name: "Петр Иванов",
+      designation: "",
+      company: "",
+      image: Incognito,
     },
   ];
   
@@ -261,5 +270,22 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const socialLinks = [
+    {
+      icon: telegram, 
+      link: 'https://t.me/strikermcs'
+    },
+
+    {
+      icon: linkedIn,
+      link: 'https://www.linkedin.com/in/strikermcs/'
+    },
+
+    {
+      icon: githubLink,
+      link: 'https://github.com/strikermcs'
+    }
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socialLinks };
