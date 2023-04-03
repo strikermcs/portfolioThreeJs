@@ -33,6 +33,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Fayna from "./projects/fayna.jpg"
+import Quazzaro from './projects/quizzaro.jpg'
+import Geld from './projects/geld.jpg'
+import Portfolio2 from './projects/portfolio2.png'
+import aerospace from './projects/portfolio.png'
+import luxtraider from './projects/Luxtraider.jpg'
 
 import githubLink from './links/github.png'
 import telegram from './links/telegram.png'
@@ -40,6 +46,8 @@ import linkedIn from './links/linkedin.png'
 
 import Shevcuk from './testimonials/NadiaShev.png'
 import Incognito from './testimonials/incognito.png'
+
+import playIcon from './play.png'
 
 export {
   logo,
@@ -78,5 +86,12 @@ export {
   vue,
   firebase,
   Shevcuk,
-  Incognito
+  Incognito,
+  Fayna,
+  Quazzaro,
+  Geld,
+  Portfolio2,
+  aerospace,
+  luxtraider,
+  playIcon
 };

@@ -31,7 +31,13 @@ import {
     firebase,
     vue,
     Shevcuk,
-    Incognito
+    Incognito,
+    Fayna,
+    Quazzaro,
+    Geld,
+    Portfolio2,
+    luxtraider,
+    aerospace
   } from "../assets";
 
   export const navLinks = [
@@ -207,67 +213,165 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Fayna",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The social network. Is a platform that supports various communication features such as chats, groups, channels, photo sharing, audio and video messaging. It also allows users to react to messages with emojis or other symbols. In addition, this platform provides audio and video call features that allow users to have real-time conversations with each other.",
       tags: [
         {
-          name: "react",
+          name: "C#",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ASP.NET Core",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Entity Framework",
           color: "pink-text-gradient",
         },
+        {
+          name: "PostgreSQL",
+          color: "text-amber-600",
+        },
+        {
+          name: "Vue 3",
+          color: "text-purple-500",
+        },
+        {
+          name: "Quasar Framework",
+          color: "text-lime-400",
+        },
+        {
+          name: "Pinia",
+          color: "text-stone-400",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Fayna,
+      source_code_link: "https://github.com/orgs/Fayna-Social-Network/repositories",
     },
     {
-      name: "Job IT",
+      name: "Quizzaro",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "With this service, users can create custom quizzes and surveys using a variety of question formats, such as multiple-choice, true/false, and open-ended questions. After creating a quiz or survey, users can share it with others by sending a link. Once respondents complete the quiz or survey, the service provides the user with detailed results and statistics, including response rates, answer frequencies.",
       tags: [
         {
-          name: "react",
+          name: "Vue 3",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Element Plus",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
+        {
+          name: "Pinia",
+          color: "text-amber-600",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Quazzaro,
+      source_code_link: "https://github.com/strikermcs/Quizzaro",
+      demo_link: "https://quizzaro-beryl.vercel.app/"
     },
     {
-      name: "Trip Guide",
+      name: "Geld",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The CRM system designed for expense tracking and created to gain experience with Vue is a web-based software application that helps users keep track of their expenses.",
       tags: [
         {
-          name: "nextjs",
+          name: "Vue 3",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Pinia",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Wave UI",
           color: "pink-text-gradient",
         },
+        {
+          name: "Firebase",
+          color: "text-amber-600",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Geld,
+      source_code_link: "https://github.com/strikermcs/Geld",
+      demo_link: "https://geld.vercel.app/"
+    },
+    {
+      name: "My old Portfolio",
+      description:
+        "My old portfolio was built using React and pure CSS and HTML.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: Portfolio2,
+      source_code_link: "https://github.com/strikermcs/portfolio",
+      demo_link: "https://earnest-cucurucho-1c0afd.netlify.app/"
+    },
+    {
+      name: "Aerospace",
+      description:
+        "The portfolio website was created to gain and solidify experience in web development.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+       
+      ],
+      image: aerospace,
+      source_code_link: "https://github.com/strikermcs/Aerospace",
+      demo_link: "http://strikermcs.github.io/Aerospace/"
+    },
+    {
+      name: "Luxtrader",
+      description:
+        "The website was created to gain and solidify experience in web development.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gulp",
+          color: "text-amber-600",
+        },
+      ],
+      image: luxtraider,
+      source_code_link: "https://github.com/strikermcs/Luxtrader",
+      demo_link: "http://strikermcs.github.io/Luxtrader/"
     },
   ];
 
