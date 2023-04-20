@@ -209,6 +209,15 @@ import {
       company: "",
       image: Incognito,
     },
+
+    {
+      testimonial:
+        "Отлично выполненная работа! Чётко в сроки и строго по макету (который был исключительно на фотографиях) - человек выполнил задачу на 100%! Быстрая и чёткая обратная связь! Рекомендую к сотрудничеству!",
+      name: "Finn Eisenberg",
+      designation: "",
+      company: "",
+      image: Incognito,
+    },
   ];
   
   const projects = [
