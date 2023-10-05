@@ -39,6 +39,7 @@ import Geld from './projects/geld.jpg'
 import Portfolio2 from './projects/portfolio2.png'
 import aerospace from './projects/portfolio.png'
 import luxtraider from './projects/Luxtraider.jpg'
+import messanger from './projects/fayna_messenger.png'
 
 import githubLink from './links/github.png'
 import telegram from './links/telegram.png'
@@ -93,5 +94,6 @@ export {
   Portfolio2,
   aerospace,
   luxtraider,
-  playIcon
+  playIcon,
+  messanger
 };

@@ -37,7 +37,8 @@ import {
     Geld,
     Portfolio2,
     luxtraider,
-    aerospace
+    aerospace,
+    messanger
   } from "../assets";
 
   export const navLinks = [
@@ -187,6 +188,25 @@ import {
   const testimonials = [
     {
       testimonial:
+      `Гарна співпраця, ввічливий та розуміючий чоловік, пішов на контакт, пояснив деякі речі, рекомендую цього фрілансера!!!`,
+      name: "Stas Makarov",
+      designation: "",
+      company: "",
+      image: Incognito,
+    },
+    {
+      testimonial:
+      `Отличное качество работы от специалиста!
+      Очень доволен результатом, ещё больше доволен что успел в сроки!
+      Сделано чётко по ТЗ и даже были выполнены правки!
+      Точно хочу продолжить сотрудничество и всем рекомендую!`,
+      name: "Finn Eisenberg",
+      designation: "",
+      company: "",
+      image: Incognito,
+    },
+    {
+      testimonial:
       'Благодарна Павлу за выполненные задачи. Задания нужно было выполнить срочно, а Павел оперативно всё выполнил и проконсультировал. Также, я просила внести некоторые корректировки, всё было сделано на отлично. Спасибо за сотрудничество 🙂',
       name: "Надежда Шевчук",
       designation: "",
@@ -221,6 +241,44 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Fayna Messenger",
+      description:
+        "The social network. Is a platform that supports various communication features such as chats, groups, channels, photo sharing, audio and video messaging. It also allows users to react to messages with emojis or other symbols. In addition, this platform provides audio and video call features that allow users to have real-time conversations with each other.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "text-amber-600",
+        },
+        {
+          name: "Pusher",
+          color: "text-purple-500",
+        },
+        {
+          name: "Type Script",
+          color: "text-lime-400",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "text-stone-400",
+        },
+      ],
+      image: messanger,
+      source_code_link: "https://github.com/strikermcs/fayna-messenger",
+      demo_link: "https://fayna-messenger.vercel.app/"
+    },
     {
       name: "Fayna",
       description:

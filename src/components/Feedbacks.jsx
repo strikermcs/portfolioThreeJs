@@ -6,10 +6,16 @@ import SectionHeader from "./common/SectionHeader"
 import { fadeIn, textVariant } from "../utils/motion"
 import { testimonials } from "../constants"
 
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
+
+import 'swiper/css'
+import 'swiper/css/navigation';
+
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => {
   return (
     <motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    className="bg-black-200 p-10 rounded-3xl w-full"
     >
       <p className="text-white font-black text-[48px]">"</p>
       <div className="mt-1">
@@ -40,10 +46,21 @@ const Feedbacks = () => {
           <SectionHeader header="Testimonials." subText="What others say"/>
         </motion.div>
       </div>
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
-        ))}
+      <div className={`${styles.paddingX} -mt-20 pb-14`}>
+        <Swiper
+          modules={[Navigation]}
+          slidesPerView={1}
+          navigation
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+          className="px-2 md:px-10"
+        >
+          {testimonials.map((testimonial, index) => (
+            <SwiperSlide>
+               <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+            </SwiperSlide>   
+          ))}
+        </Swiper>
       </div>
     </div>
   )
