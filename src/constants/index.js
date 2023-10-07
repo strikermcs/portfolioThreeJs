@@ -244,7 +244,7 @@ import {
     {
       name: "Fayna Messenger",
       description:
-        "The social network. Is a platform that supports various communication features such as chats, groups, channels, photo sharing, audio and video messaging. It also allows users to react to messages with emojis or other symbols. In addition, this platform provides audio and video call features that allow users to have real-time conversations with each other.",
+        "Simplified version of the Fayna social network. Currently in development.",
       tags: [
         {
           name: "React",
