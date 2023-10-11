@@ -50,6 +50,7 @@ const Feedbacks = () => {
         <Swiper
           modules={[Navigation]}
           slidesPerView={1}
+          spaceBetween={50}
           navigation
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
