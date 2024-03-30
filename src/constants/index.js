@@ -38,7 +38,10 @@ import {
     Portfolio2,
     luxtraider,
     aerospace,
-    messanger
+    messanger,
+    AlexandrP,
+    Rrococo,
+    Imobular
   } from "../assets";
 
   export const navLinks = [
@@ -188,6 +191,16 @@ import {
   const testimonials = [
     {
       testimonial:
+      `Всі поставлені задачі були виконані вчасно та в повному об'ємі. Павло завжди на зв'язку та вирішив навіть необговорені проблеми. Дуже вдячний та рекомедую для співпраці.`,
+      name: "Александр П.",
+      designation: "",
+      company: "",
+      image: AlexandrP,
+    },
+
+
+    {
+      testimonial:
       `Гарна співпраця, ввічливий та розуміючий чоловік, пішов на контакт, пояснив деякі речі, рекомендую цього фрілансера!!!`,
       name: "Stas Makarov",
       designation: "",
@@ -205,6 +218,16 @@ import {
       company: "",
       image: Incognito,
     },
+
+    {
+      testimonial:
+      `Дякую Павлу. Все добре. Планую звертатися в майбутньому`,
+      name: "Александр П.",
+      designation: "",
+      company: "",
+      image: AlexandrP,
+    },
+
     {
       testimonial:
       'Благодарна Павлу за выполненные задачи. Задания нужно было выполнить срочно, а Павел оперативно всё выполнил и проконсультировал. Также, я просила внести некоторые корректировки, всё было сделано на отлично. Спасибо за сотрудничество 🙂',
@@ -241,6 +264,72 @@ import {
   ];
   
   const projects = [
+    
+    {
+      name: "Marketing Imobular",
+      description:
+        "The real estate sector site",
+      tags: [
+        {
+          name: "Nuxt",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pinia",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Element Plus",
+          color: "text-amber-600",
+        },
+
+        {
+          name: "Type Script",
+          color: "text-lime-400",
+        },
+
+      ],
+      image: Imobular,
+      source_code_link: "https://github.com/strikermcs/marketing-imobiliar",
+      demo_link: "https://www.marketing-imobiliar.ro/"
+    },
+
+    {
+      name: "Rrococo",
+      description:
+        "Site of the author’s handmade packaging.",
+      tags: [
+        {
+          name: "Nuxt",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pinia",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Element Plus",
+          color: "text-amber-600",
+        },
+
+        {
+          name: "Type Script",
+          color: "text-lime-400",
+        },
+
+      ],
+      image: Rrococo,
+      source_code_link: "https://github.com/MaksoRrococo/rrococo",
+      demo_link: "https://www.rrococo.com/"
+    },
     {
       name: "Fayna Messenger",
       description:
