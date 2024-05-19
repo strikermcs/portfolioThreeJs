@@ -123,7 +123,7 @@ const Contact = () => {
             ))}  
         </ul>
         <div className='mt-5 flex justify-center text-secondary'>
-          <span>Tel: +380 (98) 218-82-51  </span>
+          <a href="tel:+380982188251">Tel: +380 (98) 218-82-51 </a>
         </div>
       </motion.div>
 
