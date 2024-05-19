@@ -46,6 +46,7 @@ import Rrococo from './projects/rrococo.png'
 import githubLink from './links/github.png'
 import telegram from './links/telegram.png'
 import linkedIn from './links/linkedin.png'
+import viber from './links/viber.png'
 
 import Shevcuk from './testimonials/NadiaShev.png'
 import Incognito from './testimonials/incognito.png'
@@ -101,5 +102,6 @@ export {
   messanger,
   AlexandrP,
   Imobular,
-  Rrococo
+  Rrococo,
+  viber
 };

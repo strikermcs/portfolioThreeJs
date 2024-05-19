@@ -122,6 +122,9 @@ const Contact = () => {
               </li>
             ))}  
         </ul>
+        <div className='mt-5 flex justify-center text-secondary'>
+          <span>Tel: +380 (98) 218-82-51  </span>
+        </div>
       </motion.div>
 
       <motion.div variants={slideIn('right', 'tween', 0.2, 1)}

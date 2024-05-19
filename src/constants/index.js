@@ -41,7 +41,8 @@ import {
     messanger,
     AlexandrP,
     Rrococo,
-    Imobular
+    Imobular,
+    viber
   } from "../assets";
 
   export const navLinks = [
@@ -546,6 +547,7 @@ import {
       icon: githubLink,
       link: 'https://github.com/strikermcs'
     }
+
   ]
   
   export { services, technologies, experiences, testimonials, projects, socialLinks };
