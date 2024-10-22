@@ -29,6 +29,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ff from "./company/ff-logo.svg"
+import freelance from "./company/freelance.png"
+import imobiliar from "./company/imobiliar.svg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -80,6 +83,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  ff,
+  freelance,
+  imobiliar,
   carrent,
   jobit,
   tripguide,
